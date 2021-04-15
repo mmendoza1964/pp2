@@ -36,8 +36,11 @@ echo var_dump($numbers); //is working, yay
 printArr($numbers);
 
 
-echo "<p>3)</p>";
+echo "<p>3) Moved to functions.php</p>";
 
+
+echo "<p>4)</p>";
+echo "<p>Largest number is: " . largest($numbers);
 
 
 

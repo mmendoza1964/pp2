@@ -6,3 +6,12 @@ function printArr($array) {
     }
 }
 
+function largest($array) {
+    $high = 0;
+    foreach ($array as $item) {
+        if ($item > $high) {
+            $high = $item;
+        }
+    }
+    return $high;
+}
