@@ -30,7 +30,16 @@ echo "<h3>Pair Program 2</h3>";
 echo "<p>1)</p>";
 echo "<p>2)</p>";
 $numbers = array( 7, 9, 8, 9, 8, 8, 6);
-echo var_dump($numbers);
+echo var_dump($numbers); //is working, yay
+
+function printArr($array) {
+    foreach ($array as $item) {
+        echo "<p>$item</p>";
+    }
+}
+
+printArr($numbers);
+
 
 
 
