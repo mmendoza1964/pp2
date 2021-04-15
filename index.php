@@ -42,6 +42,9 @@ echo "<p>3) Moved to functions.php</p>";
 echo "<p>4) Create largest function</p>";
 echo "<p>Largest number is: " . largest($numbers);
 
+echo "<p>5) Remove Duplicates</p>";
+removeDups($numbers);
+
 
 
 
