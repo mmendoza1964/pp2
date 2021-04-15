@@ -26,8 +26,13 @@ error_reporting(E_ALL);
 </html>
 
 <?php
-echo "<p>1)</p>";
 echo "<h3>Pair Program 2</h3>";
+echo "<p>1)</p>";
+echo "<p>2)</p>";
+$numbers = array( 7, 9, 8, 9, 8, 8, 6);
+echo var_dump($numbers);
+
+
 
 
 
